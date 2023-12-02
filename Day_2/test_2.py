@@ -1,4 +1,4 @@
-from answer import my_function_to_run
+from answer_2 import my_function_to_run
 
 
 def test_sum():
@@ -102,5 +102,6 @@ Game 97: 5 green, 6 blue, 1 red; 7 green, 1 red; 5 blue; 3 blue, 1 red
 Game 98: 1 blue, 5 green, 7 red; 3 red, 5 green, 1 blue; 4 blue, 8 green, 2 red; 4 green, 1 blue, 6 red
 Game 99: 12 blue, 8 green; 2 green; 3 red, 7 green, 5 blue; 1 green, 1 blue, 2 red
 Game 100: 4 blue, 14 red; 12 red, 1 blue; 2 red, 2 blue; 8 red; 14 red, 2 blue, 1 green; 3 blue"""
-    expected = 2176
+    expected = 2286
     assert my_function_to_run(input) == expected
+
