@@ -1008,26 +1008,24 @@ def test_func():
     input = """qfqbpzjfour1djfd5zxncnfnfqqpc"""
     expected = 45
     assert my_function_to_run(input) == expected
-
-
-#     input = """one"""
-#     expected=11
-#     assert my_function_to_run(input) == expected
-#     input = """two"""
-#     expected=22
-#     assert my_function_to_run(input) == expected
-#     input = """oneight"""
-#     expected=18
-#     assert my_function_to_run(input) == expected
-#     input = """eighthree"""
-#     expected=83
-#     assert my_function_to_run(input) == expected
-#     input = """two1nine
-# eightwothree
-# abcone2threexyz
-# xtwone3four
-# 4nineeightseven2
-# zoneight234
-# 7pqrstsixteen"""
-#     expected=281
-#     assert my_function_to_run(input) == expected
+    input = """one"""
+    expected=11
+    assert my_function_to_run(input) == expected
+    input = """two"""
+    expected=22
+    assert my_function_to_run(input) == expected
+    input = """oneight"""
+    expected=18
+    assert my_function_to_run(input) == expected
+    input = """eighthree"""
+    expected=83
+    assert my_function_to_run(input) == expected
+    input = """two1nine
+eightwothree
+abcone2threexyz
+xtwone3four
+4nineeightseven2
+zoneight234
+7pqrstsixteen"""
+    expected=281
+    assert my_function_to_run(input) == expected
